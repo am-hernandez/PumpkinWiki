@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Pumpkin Info</title>
+<style id="jsbin-css">
+.hidden {
+  display: none;
+}
+
+#p_1 {
+  border: solid red
+}
+</style>
+</head>
+<body>
+  <h1>Pumpkin</h1>
+  <button type="button" id="btn1">Hide Paragraph</button>
+  <p id="p_1">
+    A pumpkin is a cultivar of winter squash that 
+    is round with smooth, slightly ribbed skin, and is most often 
+    deep yellow to orange in coloration. The thick shell contains 
+    the seeds and pulp. The name is most commonly used for cultivars 
+    of Cucurbita pepo, but some cultivars of Cucurbita maxima, 
+    C. argyrosperma, and C. moschata with similar appearance are also 
+    sometimes called "pumpkin".
+  </p>
+  <p>
+    Native to North America (northeastern Mexico and the southern 
+    United States), pumpkins are one of the oldest domesticated 
+    plants, having been used as early as 7,500 to 5,000 BC. Pumpkins 
+    are widely grown for commercial use and as food, aesthetics, and 
+    recreational purposes. Pumpkin pie, for instance, is a traditional 
+    part of Thanksgiving meals in Canada and the United States, and 
+    pumpkins are frequently carved as jack-o'-lanterns for decoration 
+    around Halloween, although commercially canned pumpkin purée and 
+    pumpkin pie fillings are usually made from different kinds of winter 
+    squash than the ones used for jack-o'-lanterns. China and India 
+    combined account for half of the world's production of pumpkins.
+  </p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Pumpkin_flower.jpg/330px-Pumpkin_flower.jpg"
+       alt="Pumpkin flower">
+<script id="jsbin-javascript">
+// console.clear();
+const p1 = document.getElementById("p_1");
+const btn1 = document.getElementById("btn1");
+
+btn1.addEventListener("click", function(){
+                    p1.classList.toggle("hidden");
+                    });
+</script>
+
+
+<script id="jsbin-source-css" type="text/css">.hidden {
+  display: none;
+}
+
+#p_1 {
+  border: solid red
+}</script>
+
+<script id="jsbin-source-javascript" type="text/javascript">// console.clear();
+const p1 = document.getElementById("p_1");
+const btn1 = document.getElementById("btn1");
+
+btn1.addEventListener("click", function(){
+                    p1.classList.toggle("hidden");
+                    });</script></body>
+</html>
